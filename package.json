@@ -2,10 +2,13 @@
   "name": "expense-tracker-server",
   "version": "1.0.0",
   "description": "Advanced Expense Tracker Backend",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
